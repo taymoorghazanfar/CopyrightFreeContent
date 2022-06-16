@@ -1,0 +1,54 @@
+{
+  "editing-tools": [
+    {
+      "id": 1,
+      "title": "Photo Editor",
+      "url": "https://www12.lunapic.com/editor/"
+    },
+    {
+      "id": 2,
+      "title": "Compress Image",
+      "url": "https://www.iloveimg.com/compress-image"
+    },
+    {
+      "id": 3,
+      "title": "Resize Image",
+      "url": "https://www.iloveimg.com/resize-image"
+    },
+    {
+      "id": 4,
+      "title": "Crop Image",
+      "url": "https://www.iloveimg.com/crop-image"
+    },
+    {
+      "id": 5,
+      "title": "Convert to JPG",
+      "url": "https://www.iloveimg.com/convert-to-jpg"
+    },
+    {
+      "id": 6,
+      "title": "Remove Background",
+      "url": "https://www2.lunapic.com/editor/?action=transparent"
+    },
+    {
+      "id": 7,
+      "title": "Rotate Image",
+      "url": "https://www.iloveimg.com/rotate-image"
+    },
+    {
+      "id": 8,
+      "title": "Watermark Image",
+      "url": "https://www.iloveimg.com/watermark-image"
+    },
+    {
+      "id": 9,
+      "title": "Meme Generator",
+      "url": "https://www.iloveimg.com/meme-generator"
+    },
+    {
+      "id": 10,
+      "title": "HTML To Image",
+      "url": "https://www.iloveimg.com/html-to-image"
+    }
+  ]
+}

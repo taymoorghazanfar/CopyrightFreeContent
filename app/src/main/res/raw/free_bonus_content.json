@@ -1,0 +1,39 @@
+{
+  "bonus-features": [
+    {
+      "id": 1,
+      "title": "Photo Challenges",
+      "url": "https://www.pexels.com/challenges/"
+    },
+    {
+      "id": 2,
+      "title": "Copyright free Wallpapers",
+      "url": "https://www.pexels.com/search/HD%20wallpaper/"
+    },
+    {
+      "id": 3,
+      "title": "Free Wallpapers",
+      "url": "https://www.pexels.com/search/HD%20wallpaper/"
+    },
+    {
+      "id": 4,
+      "title": "Free iPhone Wallpapers",
+      "url": "https://www.pexels.com/search/iphone%20wallpaper/"
+    },
+    {
+      "id": 5,
+      "title": "Free Lock Screen Wallpapers",
+      "url": "https://www.pexels.com/search/lock%20screen%20wallpaper/"
+    },
+    {
+      "id": 6,
+      "title": "Free Popular Photos",
+      "url": "https://www.pexels.com/discover/"
+    },
+    {
+      "id": 7,
+      "title": "Most Popular Collections",
+      "url": "https://www.pexels.com/popular-searches/"
+    }
+  ]
+}

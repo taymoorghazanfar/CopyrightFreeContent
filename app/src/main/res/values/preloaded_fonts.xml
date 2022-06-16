@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/armata</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/cherry_cream_soda</item>
+        <item>@font/courgette</item>
+        <item>@font/fredoka_one</item>
+    </array>
+</resources>

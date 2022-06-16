@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Copyright Free Content</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="download_title">Download Manager</string>
+    <string name="download_file">"File name: "</string>
+    <string name="yes">Yes</string>
+    <string name="retry">Retry</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="error_image_description">error image description</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="privacy_policy">https://sites.google.com/view/copyright-free-content/home</string>
+    <string name="about_us">All the images, videos, music, icons and fonts in this app are fetched
+        from 3rd party sites and we do not own them in any way whatsoever. This app only provides a
+        pathway to access the most popular copyright and royalty free content available on the web.
+        Feel free to use all the content of this app for legal purposes only.
+        You will be responsible for any consequences of the misuse of the content.</string>
+    <string name="home">Home</string>
+    <string name="reload">Reload</string>
+    <string name="about">About Us</string>
+    <string name="downloads">Downloads</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share_app">Share App</string>
+    <string name="got_it">Got It</string>
+    <string name="important_notice">Important Notice</string>
+    <string name="tag_line">Everything in one place</string>
+    <string name="ad_app_id">ca-app-pub-4556112021830072~9578237855</string>
+    <string name="ad_banner_id_1">ca-app-pub-4556112021830072/1665934729</string>
+    <string name="ad_banner_id_2">ca-app-pub-4556112021830072/8617715256</string>
+    <string name="ad_banner_id_3">ca-app-pub-4556112021830072/6986915295</string>
+    <string name="ad_interstitial_id_1">ca-app-pub-4556112021830072/3728797768</string>
+    <string name="ad_interstitial_id_2">ca-app-pub-4556112021830072/4678470241</string>
+    <string name="ad_interstitial_id_3">ca-app-pub-4556112021830072/1734588613</string>
+</resources>

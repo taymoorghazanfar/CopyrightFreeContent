@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.WebActivity">
+
+    <include layout="@layout/toolbar_web" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <WebView
+            android:id="@+id/web_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/layout_banner"
+            android:background="@color/black" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/loading_anim"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/loading_anim" />
+
+        <RelativeLayout
+            android:id="@+id/layout_error"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/image_view_no_connection"
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/error_image_description"
+                android:src="@drawable/no_internet" />
+
+            <TextView
+                android:id="@+id/text_view_no_connection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_view_no_connection"
+                android:gravity="center"
+                android:text="@string/no_internet_connection"
+                android:textAlignment="center"
+                android:textSize="26sp" />
+
+            <Button
+                android:id="@+id/button_retry"
+                android:layout_width="140dp"
+                android:layout_height="55dp"
+                android:layout_below="@id/text_view_no_connection"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:longClickable="true"
+                android:text="@string/retry"
+                android:textColor="#ffffff"
+                android:textSize="22sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_toolbar"
+            android:orientation="horizontal" />
+
+    </RelativeLayout>
+
+</LinearLayout>
